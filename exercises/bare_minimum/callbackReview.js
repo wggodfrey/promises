@@ -31,9 +31,7 @@ var getStatusCode = function (url, callback) {
     } else {
       callback(err, res.statusCode);
     }
-    // console.log('OUR STATUS CODE:', res.);
   });
-  // TODO
 };
 
 // Export these functions so we can test them and reuse them in later exercises
